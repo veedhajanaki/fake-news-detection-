@@ -210,12 +210,6 @@ When uploading a fake news image:
 - Deploy on cloud
 
 
-## 👨‍💻 Author
-
-Your Name  
-Student Project
-
-
 ## ⭐ If You Like This Project
 
 Give this repository a ⭐ on GitHub!
