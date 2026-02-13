@@ -118,7 +118,7 @@ It contains:
 
 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git  
 cd your-repo-name
 
 
@@ -131,23 +131,74 @@ pip install pandas numpy scikit-learn nltk matplotlib seaborn joblib pytesseract
 
 Use KaggleHub inside the notebook:
 
-import kagglehub
+import kagglehub  
 path = kagglehub.dataset_download("clmentbisaillon/fake-and-real-news-dataset")
 
 
 4️⃣ Run the notebook
 
-Open:
-FAKE.ipynb
+Open:  
+FAKE.ipynb  
 
 Run all cells.
 
 
+# 📸 Sample Outputs
+
+## 🔹 1️⃣ Input Method Selection
+
+The system allows three input methods:
+- Upload text file
+- Enter text manually
+- Upload article image
+
+![Input Menu](1.png)
+
+
+---
+
+## 🔹 2️⃣ Real News Prediction (Text File Upload)
+
+When uploading a real news article:
+
+✅ Prediction: REAL NEWS
+
+![Real News Prediction](2.png)
+
+
+---
+
+## 🔹 3️⃣ Manual Text Input (Uncertain / Generic News)
+
+When the content is too short or generic:
+
+⚠️ Prediction: UNCERTAIN / GENERIC NEWS
+
+![Uncertain Prediction](3.png)
+
+
+---
+
+## 🔹 4️⃣ Image Upload with OCR (Fake News)
+
+When uploading a fake news image:
+- Text is extracted using OCR
+- The model predicts FAKE NEWS
+
+❌ Prediction: FAKE NEWS
+
+![Fake News Prediction](4.png)
+
+
 ## 📌 Project Structure
 
-├── FAKE.ipynb
-├── fake_news_model.pkl
-├── README.md
+├── FAKE.ipynb  
+├── fake_news_model.pkl  
+├── 1.png  
+├── 2.png  
+├── 3.png  
+├── 4.png  
+├── README.md  
 
 
 ## 🎯 Future Improvements
