@@ -201,13 +201,6 @@ When uploading a fake news image:
 ├── README.md  
 
 
-## 🎯 Future Improvements
-
-- Deploy as Streamlit Web App
-- Add Deep Learning (LSTM / BERT)
-- Add Web Scraping for live news
-- Improve UI
-- Deploy on cloud
 
 
 ## ⭐ If You Like This Project
