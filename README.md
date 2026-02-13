@@ -152,7 +152,7 @@ The system allows three input methods:
 - Enter text manually
 - Upload article image
 
-images/1.png
+< img src="images/1.png" width="450/">
 
 
 
