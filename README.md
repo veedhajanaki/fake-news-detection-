@@ -164,7 +164,7 @@ When uploading a real news article:
 
 ✅ Prediction: REAL NEWS
 
-![Real News Prediction](2.png)
+![Real News Prediction](images/2.png)
 
 
 ---
@@ -175,7 +175,7 @@ When the content is too short or generic:
 
 ⚠️ Prediction: UNCERTAIN / GENERIC NEWS
 
-![Uncertain Prediction](3.png)
+![Uncertain Prediction](images/3.png)
 
 
 ---
@@ -188,7 +188,7 @@ When uploading a fake news image:
 
 ❌ Prediction: FAKE NEWS
 
-![Fake News Prediction](4.png)
+![Fake News Prediction](images/4.png)
 
 
 ## 📌 Project Structure
