@@ -151,8 +151,7 @@ The system allows three input methods:
 - Upload text file
 - Enter text manually
 - Upload article image
-
-< img src="images/1.png" width="450"/>
+![input method selection].(images/1.png)
 
 
 
