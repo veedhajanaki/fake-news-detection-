@@ -152,7 +152,8 @@ The system allows three input methods:
 - Enter text manually
 - Upload article image
 
-![Input Menu](1.png)
+images/1.png
+
 
 
 ---
